@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.text-info {
+    margin: 5px;
+    margin-right: auto;
+}
+
+.cerchio {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    color: white
+}
+
+img {
+    width: 350px;
+    max-height: 157px;
+}
+
+.icon-body {
+    padding: 20px;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.card-footer h4 {
+    margin: 0;
+}
