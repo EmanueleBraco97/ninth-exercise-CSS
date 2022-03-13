@@ -1,7 +1,13 @@
-.container {
+body {
+    height: 100vh;
     display: flex;
-    gap: 50px;
-    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 95%;
+    margin: auto;
 }
 
 .card {
@@ -9,6 +15,7 @@
     height: 400px;
     background-color: gainsboro;
     border-radius: 15px;
+    margin: auto;
 }
 
 .card-top {
@@ -16,6 +23,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
 }
 
 .text-info {
